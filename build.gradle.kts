@@ -13,6 +13,8 @@ dependencies {
     implementation("org.bouncycastle:bcprov-jdk18on:1.83")
     implementation("org.bouncycastle:bcpkix-jdk18on:1.83")
     testImplementation(kotlin("test"))
+    testImplementation("commons-codec:commons-codec:1.16.0")
+    testImplementation("com.google.code.gson:gson:2.11.0")
 }
 
 kotlin {
